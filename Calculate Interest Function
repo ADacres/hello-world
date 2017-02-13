@@ -14,14 +14,18 @@ class Ideone
 		System.out.println("The original cost of the item is $9.95");
 
 	double price = 9.95;
-	double a = 7;
-	double b = 100;
-	double ab = a/b;
+	double tax = 7;
+	double percentage = 100;
+	double salestax = tax/percentage;
 	
-	double c = ab * price;
-	double total = price - c;
+	double totaltax = salestax * price;
 	
-	System.out.println("Your total is $" + total);
+	System.out.println("The tax added to the amount is $" + totaltax);
+	
+	double total = price + totaltax;
+	
+	System.out.println("Your total is $" + total + "!" + " Thanks for shopping at Adri's, have a nice day :)!");
+	
 
 	}
 }
