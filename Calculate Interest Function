@@ -1,0 +1,27 @@
+/* My first project; 
+// Java */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* public stat void main(String[] args) */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// Total Purchase Calculation
+		System.out.println("The original cost of the item is $9.95");
+
+	double price = 9.95;
+	double a = 7;
+	double b = 100;
+	double ab = a/b;
+	
+	double c = ab * price;
+	double total = price - c;
+	
+	System.out.println("Your total is $" + total);
+
+	}
+}
